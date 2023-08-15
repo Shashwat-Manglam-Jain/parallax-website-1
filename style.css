@@ -87,7 +87,7 @@ font-size: 1rem;
   width: 24px;
   height: 24px;
   transition: transform 0.2s;
-}
+};
 @media screen and (max-width: 480px) {
   .text{
     width: 100%;
@@ -97,7 +97,7 @@ font-size: 1rem;
   font-weight: 400;
   font-size: 1rem;
     padding-bottom: 2rem;
-    bottom: 35.49rem;
+    bottom: 36.49rem;
       
       padding: 0.72rem;
       background-color: #000000;
@@ -111,13 +111,13 @@ font-size: 1rem;
     background-color: #000000;
     color: #f0f8ff;
     position: relative;
-    bottom: 35.6rem;
-    height: 351px;
+    bottom: 36.6rem;
+    padding-bottom: 15rem;
   }};
 
 @media screen and (max-width: 768px) {
  .text{position: relative;
-bottom: 23.5rem;}
+bottom: 410px;}
 .hero img{
   padding-top: 1.5rem;
 }
