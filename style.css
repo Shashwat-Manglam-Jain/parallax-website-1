@@ -88,15 +88,17 @@ font-size: 1rem;
   height: 24px;
   transition: transform 0.2s;
 }
-@media screen and (max-width: 480px) {
+
+ @media  (max-width: 480px) {
   .text{
-     overflow-x: hidden;
+   
+    overflow-x: hidden;
     color: #fbfcfd;
   position: relative;
   font-weight: 400;
   font-size: 1rem;
     padding-bottom: 2rem;
-    bottom: 36.49rem;
+    bottom: 36.5rem;
       
       padding: 0.72rem;
       background-color: #000000;
@@ -111,25 +113,11 @@ font-size: 1rem;
     color: #f0f8ff;
     position: relative;
     bottom: 36.6rem;
-    padding-bottom: 15rem;
-  }};
+    padding-bottom: 15rem
+   
+  }
+  
 
-@media screen and (max-width: 768px) {
- .text{position: relative;
-bottom: 410px;}
-.hero img{
-  padding-top: 1.5rem;
-}
-.footer{
-  background-color: #000000;
-  color: #f0f8ff;
-  position: relative;
-  bottom: 32.6rem;
-  height: 351px;
-}
+ }
 
-}
 
-.social-icons a:hover img {
-  transform: scale(1.2);
-}
