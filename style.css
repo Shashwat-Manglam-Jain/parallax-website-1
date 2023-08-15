@@ -89,7 +89,24 @@ font-size: 1rem;
   transition: transform 0.2s;
 }
 
- @media  (max-width: 480px) {
+
+  @media  (max-width: 768px) {
+  .text{position: relative;
+  bottom: 25.58rem;
+ }
+ .hero img{
+   padding-top: 1.5rem;
+ }
+ .footer{
+   background-color: #000000;
+   color: #f0f8ff;
+   position: relative;
+   bottom: 32.6rem;
+   height: 351px;
+ }
+ 
+ }
+@media  (max-width: 480px) {
   .text{
    
     overflow-x: hidden;
